@@ -37,8 +37,8 @@ public class Car {
     private String dataFabricacao;
     
     @Column(length = 10, nullable = false)
-    private Double valor;
+    private double valor;
     
     @Column(length = 4, nullable = false)
-    private Number anoModelo;
+    private int anoModelo;
 }
